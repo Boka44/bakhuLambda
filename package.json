@@ -1,7 +1,7 @@
 {
-  "name": "aurora-api",
+  "name": "lambda_bakhu",
   "version": "1.0.1",
-  "description": "Provide an structured data API on top of NOAA's Aurora Forecast",
+  "description": "",
   "main": "src/index.js",
   "scripts": {
     "build": "./build.sh",
@@ -10,16 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/evanchiu/aurora-api.git"
+    "url": ""
   },
   "keywords": [
-    "API",
-    "Aurora",
-    "Forecast",
-    "NOAA"
   ],
-  "author": "Evan Chiu <evan@evanchiu.com>",
-  "license": "MIT",
+  "author": "Boka44",
+  "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/evanchiu/aurora-api/issues"
   },
@@ -28,5 +24,6 @@
     "moment": "^2.24.0",
     "mongoose": "^5.8.4",
     "request": "^2.88.0"
-  }
+  },
+  "private": true
 }
